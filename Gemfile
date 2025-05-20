@@ -1,10 +1,14 @@
-# frozen_string_literal: true
+## frozen_string_literal: true
+
+# source "https://rubygems.org"
+# gemspec
+
+# gem "jekyll", ENV["JEKYLL_VERSION"] if ENV["JEKYLL_VERSION"]
+# gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
 
 source "https://rubygems.org"
-gemspec
 
-gem "jekyll", ENV["JEKYLL_VERSION"] if ENV["JEKYLL_VERSION"]
-gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
+gem "github-pages", group: :jekyll_plugins
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
@@ -17,3 +21,4 @@ gem 'jekyll-seo-tag'
 gem "jekyll-remote-theme"
 
 gem 'jekyll-relative-links'
+

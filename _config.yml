@@ -3,7 +3,7 @@ author:
   name: bkusuma
   email: your-email@domain.com
 description: I've added a description!
-theme: hacker
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
